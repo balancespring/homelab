@@ -1,2 +1,2 @@
 # homelab
-Home of the Balance.Spring CICD Homelab! Same great infrastructure, now more code-ier!
+Home of the Balance.Spring DevOps Homelab! Same great infrastructure, now more code-ier!
