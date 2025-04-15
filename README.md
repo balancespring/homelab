@@ -3,3 +3,12 @@
 
 ### Service Overview
 - [Audiobookshelf](https://github.com/advplyr/audiobookshelf)
+
+### Backend Services and Infrastructure
+- K3S Cluster
+    - FluxCD
+    - GitHub Actions
+    - Prometheus
+    - Grafana
+    - Portainer
+    - Longhorn
