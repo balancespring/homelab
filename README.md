@@ -5,7 +5,7 @@
 - [Audiobookshelf](https://github.com/advplyr/audiobookshelf)
 
 ### Backend Services and Infrastructure
-- K3S Cluster
+- K8S Cluster
     - FluxCD
     - GitHub Actions
     - Prometheus
