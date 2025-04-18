@@ -3,6 +3,7 @@
 
 ### Service Overview
 - [Audiobookshelf](https://github.com/advplyr/audiobookshelf)
+- [Linkding](https://github.com/sissbruecker/linkding)
 
 ### Backend Services and Infrastructure
 - K8S Cluster
@@ -10,5 +11,10 @@
     - GitHub Actions
     - Prometheus
     - Grafana
-    - Portainer
-    - Longhorn
+    - Portainer (Cluster management)
+    - Longhorn  (PVC provider)
+
+### Backend Services under review for use
+- [Cloudflare](https://github.com/cloudflare/cloudflared)
+    - Specifically using cloudflared tunnel container
+    - Part of Cloudflare Zero Trust
