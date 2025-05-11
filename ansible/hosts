@@ -1,0 +1,11 @@
+[control]
+rasp01  ansible_connection=ssh var_hostname=rasp01 var_disk=
+
+[workers]
+rasp02  ansible_connection=ssh var_hostname=rasp02
+rasp03  ansible_connection=ssh var_hostname=rasp03
+rasp04  ansible_connection=ssh var_hostname=rasp04
+
+[kube:children]
+control
+workers

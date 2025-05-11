@@ -1,0 +1,12 @@
+---
+- name: Prepare nodes
+  hosts: kube
+  remote_user: root
+
+  tasks:
+    - name: Create storage path
+      ansible.builtin.file:
+        path: /storage
+        state: directory
+        mode: '0755'
+    
