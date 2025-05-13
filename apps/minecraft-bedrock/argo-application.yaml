@@ -8,6 +8,7 @@ spec:
   source:
     chart: minecraft-bedrock
     repoURL: https://itzg.github.io/minecraft-server-charts/
+    targetRevision: HEAD
     helm:
       releaseName: minecraft-bedrock
       values: |
