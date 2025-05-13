@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: minecraft-bedrock
+  namespace: argocd
+spec:
+  project: default
+  source:
+    chart: minecraft-bedrock
+    repoURL: https://github.com/itzg/minecraft-server-charts
+    targetRevision: latest
+    helm:
+      releaseName: minecraft-bedrock
+      valueFiles:
+      - values.yaml
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: minecraft-bedrock
