@@ -10,7 +10,7 @@ image:
 ##
 resources:
   requests:
-    memory: 512Mi
+    memory: 1024Mi
     cpu: 500m
 
 # If true the workload is defined as a StatefulSet instead of a Deployment.
